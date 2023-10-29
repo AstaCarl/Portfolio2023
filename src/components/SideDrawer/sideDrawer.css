@@ -1,0 +1,27 @@
+.sideDrawer{
+    height: 100%;
+    background: #112240;
+    box-shadow: -10px 0px 30px 100px #0a192fc8;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    z-index: 10;
+    transition: right 0.3s ease;
+}
+
+.sideDrawer ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideDrawer a{
+    text-decoration: none;
+    color: #CCD6F6;
+    font-size: 20px;
+    font-family: monospace;
+}
+

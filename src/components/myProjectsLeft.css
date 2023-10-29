@@ -1,0 +1,43 @@
+.secondProjectDescription{
+    position: absolute;;
+    z-index: 2;
+    top: 90px;
+    left: 10%;
+}
+
+.secondProjectDescription p, .secondProjectDescription li{
+    color: #a8b2d1;
+}
+
+.secondProjectLinks i{
+    color: #a8b2d1;
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+  @media (min-width: 992px) { 
+
+.right{
+    display: flex;
+    justify-content: end;
+}
+
+
+.secondProjectDescription{
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.secondProjectDescription p{
+    background-color: #233554;
+    padding: 15px;
+    text-align: left;
+    width: 50%;
+}
+
+  }
